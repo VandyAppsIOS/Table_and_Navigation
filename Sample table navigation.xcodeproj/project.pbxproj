@@ -14,6 +14,8 @@
 		FC2E45441C61203200098527 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC2E45421C61203200098527 /* LaunchScreen.storyboard */; };
 		FC2E454F1C61203200098527 /* Sample_table_navigationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2E454E1C61203200098527 /* Sample_table_navigationTests.swift */; };
 		FC2E455A1C61203200098527 /* Sample_table_navigationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2E45591C61203200098527 /* Sample_table_navigationUITests.swift */; };
+		FC2E456A1C6156AB00098527 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2E45691C6156AB00098527 /* TableViewController.swift */; };
+		FC2E456C1C6156C000098527 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2E456B1C6156BF00098527 /* ViewController2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		FC2E45551C61203200098527 /* Sample table navigationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sample table navigationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC2E45591C61203200098527 /* Sample_table_navigationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample_table_navigationUITests.swift; sourceTree = "<group>"; };
 		FC2E455B1C61203200098527 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC2E45691C6156AB00098527 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		FC2E456B1C6156BF00098527 /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				FC2E45391C61203200098527 /* AppDelegate.swift */,
 				FC2E453B1C61203200098527 /* ViewController.swift */,
 				FC2E453D1C61203200098527 /* Main.storyboard */,
+				FC2E45691C6156AB00098527 /* TableViewController.swift */,
+				FC2E456B1C6156BF00098527 /* ViewController2.swift */,
 				FC2E45401C61203200098527 /* Assets.xcassets */,
 				FC2E45421C61203200098527 /* LaunchScreen.storyboard */,
 				FC2E45451C61203200098527 /* Info.plist */,
@@ -257,6 +263,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC2E453C1C61203200098527 /* ViewController.swift in Sources */,
+				FC2E456C1C6156C000098527 /* ViewController2.swift in Sources */,
+				FC2E456A1C6156AB00098527 /* TableViewController.swift in Sources */,
 				FC2E453A1C61203200098527 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
